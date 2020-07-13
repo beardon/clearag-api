@@ -1,0 +1,9 @@
+# Intellij
+.idea
+*.iml
+
+# Node.js
+node_modules
+
+# terravion-api
+.eslintrc.yml
