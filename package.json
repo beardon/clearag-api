@@ -1,12 +1,16 @@
 {
   "name": "clearag-api",
   "description": "Promise-driven accessor for the ClearAg API",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "keywords": [
     "api",
     "clearag"
   ],
   "homepage": "https://github.com/beardon/clearag-api",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beardon/clearag-api.git"
+  },
   "bugs": {
     "url": "https://github.com/beardon/clearag-api/issues",
     "email": "aaron.bean@beardon.com"
@@ -16,8 +20,9 @@
     "email": "aaron.bean@beardon.com",
     "url": "https://github.com/aaronbean"
   },
-  "main": "./lib/clearag",
+  "main": "./lib/clearag_api.js",
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^1.6.7",
+    "lodash": "^4.17.21"
   }
 }
